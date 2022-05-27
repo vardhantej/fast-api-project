@@ -1,8 +1,7 @@
 from operator import index, mod
-from pyexpat import model
-from turtle import pos, title
+
 from typing import Optional, List
-from colorama import Cursor
+
 from fastapi import Body,FastAPI #Body is used for extracting info from body of the request eg def createPosts(body:dict=Body(...))
 from pydantic import BaseModel #for defining schemas
 from random import randrange
